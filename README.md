@@ -19,3 +19,15 @@
 3. Create one div inside another div.
 * Set id & text "outer" for the first one & "inner" for the second one.
 * Set the outer div text size to 25px & inner div text size to 10px.
+### PROJECT 03
+##### PROBLEM STATEMENT
+* Create a Following Navbar
+
+### PROJECT 04
+##### PROBLEM STATEMENT
+* Create a webpage layout with a header, a footer & a content area containing 3 divs.
+Set the height & width of divs to 100px.
+(add the previous navbar in the header)
+* Add borders to all the divs.
+* Give the content area an appropriate height.
+* Add a different background color to each div with
