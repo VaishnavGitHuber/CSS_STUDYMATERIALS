@@ -56,8 +56,12 @@ The **CSS Box Model** is a box that wraps around every HTML element. It consists
 - **Padding**: Clears an area around the content (inside the border) 
 - **Border**: Surrounds the padding and content.
 - **Margin**: Clears an area outside the border.
+  
 
-  * Atributes related to padding
+  * Atribute related to Content
+    - Width
+    - Height 
+  *  Atributes related to padding
     - padding-left
     - padding-right
     - padding-top
