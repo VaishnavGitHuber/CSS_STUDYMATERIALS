@@ -61,7 +61,7 @@ The **CSS Box Model** is a box that wraps around every HTML element. It consists
   * Atribute related to Content
     - Width
     - Height 
-  *  Atributes related to padding
+  * Atributes related to padding
     - padding-left
     - padding-right
     - padding-top
