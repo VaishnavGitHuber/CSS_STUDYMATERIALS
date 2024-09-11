@@ -1,4 +1,109 @@
-# CSS_STUDYMATERIALS
+# CSS Documentation 
+
+## Introduction
+CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML. It defines how elements should be rendered on screen, paper, or in other media.
+
+## CSS Syntax
+CSS follows a specific syntax where styles are applied to elements using **selectors** and **declaration blocks**. The declaration block contains **properties** and **values** which define the styles for the elements.
+
+---
+
+## Including CSS in HTML
+There are three ways to incorporate CSS into an HTML document:
+
+1. **Inline CSS**: Applies CSS directly within an HTML element's `style` attribute.
+2. **Internal CSS**: Embedded in the HTML file using the `<style>` tag inside the `<head>`.
+3. **External CSS**: Linked as a separate `.css` file using the `<link>` tag.
+
+---
+
+## Color Properties
+CSS provides properties to manipulate the color of elements:
+
+- **color**: Sets the foreground (text) color.
+- **background-color**: Defines the background color of an element.
+- **Color Formats**: Can be defined using named colors, RGB values, hexadecimal codes
+
+---
+
+## CSS Selectors
+CSS selectors are used to target HTML elements for styling:
+
+- **Universal Selector (`*`)**: Selects all elements in the document.
+- **Element Selector**: Selects all instances of a specific HTML element.
+- **ID Selector (`#id`)**: Targets a single element with a specific `id` attribute.
+- **Class Selector (`.class`)**: Targets elements with a specific `class` attribute.
+
+---
+
+## Text Properties
+CSS provides a set of properties to control the appearance of text:
+
+- **text-align**: Specifies horizontal alignment of text within an element.
+- **font-weight**: Determines the thickness or boldness of the text.
+- **text-decoration**: Adds effects like underline, overline, or strikethrough to text.
+- **font-family**: Sets the typeface or font family for the text.
+- **text-transform**: Controls capitalization and transformation of text.
+- **line-height**: Defines the space between lines of text.
+- **font-size**: Specifies the size of the text.
+
+---
+
+## Box Model
+The **CSS Box Model** is a box that wraps around every HTML element. It consists of the following properties:
+
+- **Content**: The actual content inside the box (text, images, etc.).
+- **Padding**: Clears an area around the content (inside the border) 
+- **Border**: Surrounds the padding and content.
+- **Margin**: Clears an area outside the border.
+
+  * Atributes related to padding
+    - padding-left
+    - padding-right
+    - padding-top
+    - padding-bottom
+    - padding: top,right,bottom,left
+  * Atributes related to margin
+    - margin-left
+    - margin-right
+    - margin-top
+    - margin-bottom
+    - margin : top,right,bottom,left
+  * Atribute related to Broder
+    - Border-width
+    - Baroder-style: solid/dotted/dash
+    - Border-color
+    - Border: width style color
+    - Border-radius: 
+
+The Box Model determines the element’s dimensions and space between elements.
+
+---
+
+## Display Properties
+The **display** property controls how an element is displayed on the web page. Common display values include:
+
+- **block**: The element takes up the entire width available, with a line break before and after.
+- **inline**: The element takes up only as much width as it needs, without breaking the line.
+- **inline-block**: Similar to `inline`, but allows setting `width` and `height`.
+- **none**: The element is not displayed (removed from the document flow).
+
+---
+
+## Visibility
+The **visibility** property determines whether an element is visible or hidden, while still occupying space in the layout.
+
+- **visible**: The element is visible (default).
+- **hidden**: The element is hidden, but space is still reserved.
+
+---
+---
+---
+---
+---
+
+
+
 ### PROJECT 01
 ##### PROBLEM STATEMENT
 1. Create a simple div with an id "box".
