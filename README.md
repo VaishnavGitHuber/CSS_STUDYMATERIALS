@@ -116,6 +116,27 @@ Used to set an image as background
 * background-image : url("image.jpeg");
 * background-size : cover / contain / auto
 
+## Flexbox
+Flexible Box Layout: It is a one-dimensional layout method for arranging items in rows or columns.
+#### The Flex Model
+##### Flexbox Direction: It sets how flex items are placed in the flex container, along which axis and direction.
+* flex-direction : row; (default)
+* flex-direction : row-reverse;
+* flex-direction : column;
+* flex-direction : column-reverse;
+
+#### Flex Properties: for Flex Container
+* justify-content : alignment along the main axis(flex-start / flex-end / centre /space-evenly)
+* flex-wrap : nowrap / wrap / wrap-reverse 
+* align-items : alignment along the cross axis.
+* align-content : alignment of space between & around the content along cross-axis
+
+Flex Properties
+for Flex Item
+align-self : alignment of individual along the cross axis.space is available
+flex-grow : how much a flex item will grow relative to the rest of the flex items if
+flex-shrink : how much a flex item will shrink relative to the rest of the flex items if space is available
+
 ---
 ---
 ---
