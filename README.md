@@ -100,6 +100,17 @@ The **visibility** property determines whether an element is visible or hidden, 
 - **visible**: The element is visible (default).
 - **hidden**: The element is hidden, but space is still reserved.
 
+## Positioning
+
+### Position Property
+The position CSS property defines how an element is positioned in the document. Common values include:
+
+* static: The default positioning. The top, right, bottom, left, and z-index properties have no effect.
+* relative: The element is positioned relative to its original position. The top, right, bottom, left, and z-index properties will work.
+* absolute: Positioned relative to the nearest positioned ancestor. The element is removed from the document flow.
+* fixed: Positioned relative to the browser window, staying in place when the page is scrolled.
+* sticky: Positioned based on the user's scroll position.
+
 ---
 ---
 ---
