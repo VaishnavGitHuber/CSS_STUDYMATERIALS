@@ -111,7 +111,8 @@ The position CSS property defines how an element is positioned in the document. 
 * fixed: Positioned relative to the browser window, staying in place when the page is scrolled.
 * sticky: Positioned based on the user's scroll position.
 
-#### Background Image : Used to set an image as background
+## Background Image :
+Used to set an image as background
 * background-image : url("image.jpeg");
 * background-size : cover / contain / auto
 
