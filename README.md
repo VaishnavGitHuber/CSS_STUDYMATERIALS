@@ -131,11 +131,10 @@ Flexible Box Layout: It is a one-dimensional layout method for arranging items i
 * align-items : alignment along the cross axis.
 * align-content : alignment of space between & around the content along cross-axis
 
-Flex Properties
-for Flex Item
-align-self : alignment of individual along the cross axis.space is available
-flex-grow : how much a flex item will grow relative to the rest of the flex items if
-flex-shrink : how much a flex item will shrink relative to the rest of the flex items if space is available
+#### Flex Properties
+* align-self : alignment of individual along the cross axis.space is available
+* flex-grow : how much a flex item will grow relative to the rest of the flex items if
+* flex-shrink : how much a flex item will shrink relative to the rest of the flex items if space is available
 
 ---
 ---
