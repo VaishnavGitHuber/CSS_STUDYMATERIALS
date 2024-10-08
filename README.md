@@ -211,3 +211,14 @@ Set the height & width of divs to 100px.
 * Add borders to all the divs.
 * Give the content area an appropriate height.
 * Add a different background color to each div with
+
+### PROJECT 06
+* Qs: Create a navbar with 4 options in the form of anchor tags inside list items.Now, use flexbox to place them all spaced equally in a single line.
+* Qs: Use flex box to center one div inside another div.
+* Qs: Which has higher priority - align-items or align-self?5
+
+
+### PROJECT 07
+* the color of a div changes to green for viewport width less than 300px
+* the color of a div changes to pink for width between 300px & 400px the color of a div changes to red for width between 400px & 600px
+* the color of a div changes to blue for width above 600px
