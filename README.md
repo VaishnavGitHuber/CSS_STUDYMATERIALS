@@ -136,6 +136,35 @@ Flexible Box Layout: It is a one-dimensional layout method for arranging items i
 * flex-grow : how much a flex item will grow relative to the rest of the flex items if
 * flex-shrink : how much a flex item will shrink relative to the rest of the flex items if space is available
 
+ #### Media Queries
+ - Help create responsive websites for various screen sizes and orientations.
+ - Examples:
+   ```css
+   @media (max-width: 600px) {
+       div { background-color: red; }
+    }
+   @media (min-width: 600px) {
+       div { background-color: blue; }
+   }
+   ```
+ - Ensure layouts look good on devices like laptops, phones, tablets, etc.
+
+#### Transitions
+ - Define changes between element states smoothly.
+ - Key properties:
+   - `transition-property`: e.g., font-size, width.
+   - `transition-duration`: e.g., 2s, 400ms.
+   - `transition-timing-function`: e.g., ease-in, linear.
+   - `transition-delay`: e.g., 0.2s.
+
+#### CSS Transforms
+ - Apply 2D/3D transformations:
+   - **Rotate**: `transform: rotate(45deg);`
+   - **Scale**: `transform: scale(2);`
+   - **Translate**: `transform: translate(20px, 50px);`
+   - **Skew**: `transform: skew(30deg);`
+
+
 ---
 ---
 ---
