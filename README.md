@@ -3,6 +3,7 @@
 ## Introduction
 CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML. It defines how elements should be rendered on screen, paper, or in other media.
 
+
 ## CSS Syntax
 CSS follows a specific syntax where styles are applied to elements using **selectors** and **declaration blocks**. The declaration block contains **properties** and **values** which define the styles for the elements.
 
@@ -59,14 +60,14 @@ The **CSS Box Model** is a box that wraps around every HTML element. It consists
   
 
   * Atribute related to Content
-    - Width
-    - Height 
+    - `Width`
+    - `Height`
   * Atributes related to padding
-    - padding-left
-    - padding-right
-    - padding-top
-    - padding-bottom
-    - padding: top,right,bottom,left
+    - `padding-left`
+    - `padding-right`
+    - `padding-top`
+    - `padding-bottom`
+    - `padding`: top,right,bottom,left
   * Atributes related to margin
     - margin-left
     - margin-right
