@@ -163,7 +163,12 @@ Flexible Box Layout: It is a one-dimensional layout method for arranging items i
    - **Scale**: `transform: scale(2);`
    - **Translate**: `transform: translate(20px, 50px);`
    - **Skew**: `transform: skew(30deg);`
-
+#### PSEUDO CLASS
+1. `:hover` - Selects links or elements when the mouse hovers over them. It's widely used for styling interactive elements like buttons and links.
+2. `:active` - Selects an element when it is being activated (e.g., when a link is clicked). It is often used for styling the click state of buttons and links.
+3. `:focus` - Selects an element (like an input) when it has focus, commonly used to style form fields or interactive elements for accessibility.
+4. `:visited` - Selects all links that have been visited by the user, allowing for different styling based on the link state.
+5. `:first-child` - Selects the first child of a parent element, often used for styling the first item in a list or section differently.
 
 ---
 ---
