@@ -201,7 +201,11 @@ Flexible Box Layout: It is a one-dimensional layout method for arranging items i
 * Set the outer div text size to 25px & inner div text size to 10px.
 ### PROJECT 03
 ##### PROBLEM STATEMENT
-* Create a Following Navbar
+* Create a div with height & width of 100px.
+* Set its background color to green & the border radius to 50%.
+* Create the following navbar.
+  `amazon.in  Account Mycart Contactus  Searchbar Searchbutton`
+ 
 
 ### PROJECT 04
 ##### PROBLEM STATEMENT
@@ -210,15 +214,24 @@ Set the height & width of divs to 100px.
 (add the previous navbar in the header)
 * Add borders to all the divs.
 * Give the content area an appropriate height.
-* Add a different background color to each div with
+
+### LABSHEET 05
+##### PROBLEM STATEMENT
+* Createthefollowinglayoutusingthegivenhtml.
+* Give the div a height, width & some background image.
+* Use z-index to place the div on top of page.
+* Use the appropriate position property for the div element to place it at the right end of the page. (The div should not move even on scroll)
+
 
 ### PROJECT 06
+##### PROBLEM STATEMENT
 * Qs: Create a navbar with 4 options in the form of anchor tags inside list items.Now, use flexbox to place them all spaced equally in a single line.
 * Qs: Use flex box to center one div inside another div.
 * Qs: Which has higher priority - align-items or align-self?5
 
 
 ### PROJECT 07
+
 * the color of a div changes to green for viewport width less than 300px
 * the color of a div changes to pink for width between 300px & 400px the color of a div changes to red for width between 400px & 600px
 * the color of a div changes to blue for width above 600px
