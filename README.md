@@ -264,3 +264,9 @@ Set the height & width of divs to 100px.
 * the color of a div changes to green for viewport width less than 300px
 * the color of a div changes to pink for width between 300px & 400px the color of a div changes to red for width between 400px & 600px
 * the color of a div changes to blue for width above 600px
+
+### PROJECT08
+* Qs: Create a simple loader using CSS
+* Step1 : create a div with circular shape & a thick border from one end(top/bottom/left/right)
+* Step2 : To make it spin create an animation which transforms it from 0deg to 360deg
+* Step3 : Add the animation property to the loader with infinite duration
