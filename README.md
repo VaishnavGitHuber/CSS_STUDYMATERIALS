@@ -171,6 +171,35 @@ Flexible Box Layout: It is a one-dimensional layout method for arranging items i
 4. `:visited` - Selects all links that have been visited by the user, allowing for different styling based on the link state.
 5. `:first-child` - Selects the first child of a parent element, often used for styling the first item in a list or section differently.
 
+#### Animation
+* To animate CSS elements
+
+```
+ @keyframe myName {
+from { font-size : 20px; } to { font-size : 40px; }
+}
+```
+* Animation Properties
+`animation-name`
+`animation-duration`
+`nimation-timing-function`
+`animation-delay`
+`animation-iteration-count`
+`animation-direction`
+
+* Animation Shorthand
+
+- animation : myName 2s linear 3s infinite normal
+
+* % in Animation
+```
+@keyframe myName {
+0% { font-size : 20px; }
+50% { font-size : 30px; }
+100% { font-size : 40px; }
+}
+```
+
 ---
 ---
 ---
