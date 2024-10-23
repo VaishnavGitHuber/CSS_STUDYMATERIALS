@@ -111,6 +111,24 @@ The position CSS property defines how an element is positioned in the document. 
 * absolute: Positioned relative to the nearest positioned ancestor. The element is removed from the document flow.
 * fixed: Positioned relative to the browser window, staying in place when the page is scrolled.
 * sticky: Positioned based on the user's scroll position.
+---
+NOTE :
+#### POSITIONING AND LAYOUT WITH CSS : NOTE
+**each element in css is represented using a box**
+1. Normal flow: by default, all the elements are laid on the html page using **normal flow/ static flow**.In normal flow, Block elements flow from **top to bottom**(ie,before and after new line) and inline elements flow from **left to right**.
+* Position Properties:
+1. **static**: same as normal flow
+2. **relative**: position of the box/element can be **offset** from where it would have been if it is in the normal flow.
+3. **absolute**: box/element is positioned using x and y cordinates from top-left corner of the containing element.(ie, nearest ancestor)
+4. **fixed**: box/element is positioned from top-left corner of the browser window.(Does not change the position even if you scroll)
+* **Box Offset Properties**: Used to indicate where the boxes should be positioned.
+1. left: offset position from the left of the containing element
+2. right: offset position from the right of the containing element
+3. top: offset position from the top of the containing element.
+4. bottom: offset position from the bottom of the containing element.
+* **Z-index**: element positioned using absolute/relative positioning often overlap other elements.when this happens normal behaviour is first element underneath later ones this is called as **stacking context**.can specify which element should come first using **z-index**.
+****
+---
 
 ## Background Image :
 Used to set an image as background
